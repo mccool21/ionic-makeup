@@ -1,0 +1,25 @@
+<ion-view title="Login" hide-nav-bar="true" id="page6">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <form id="login-form1" class="list">
+      <div id="login-container1">
+        <p style="text-align:center;font-size:30px;font-weight:bold;">
+          Makeup Keeper
+        </p>
+      </div>
+      <ion-list id="login-list1">
+        <label class="item item-input item-floating-label" id="login-input1" name="Email">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="Email">
+        </label>
+        <label class="item item-input item-floating-label" id="login-input2" name="Password">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="Password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <a ui-sref="tabsController.makeupList()" id="login-button1" class="button button-stable button-block">Log in</a>
+      <button id="login-button4" class="button button-positive button-block">Log in with Facebook</button>
+      <a ui-sref="signup()" id="login-button2" class="button button-positive button-block button-clear">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>

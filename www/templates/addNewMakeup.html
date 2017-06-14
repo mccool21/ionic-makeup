@@ -1,0 +1,37 @@
+<ion-view title="Add New Makeup " id="page8">
+  <ion-content padding="true" class="has-header">
+    <form id="addNewMakeup-form3" class="list">
+      <label class="item item-input item-floating-label" id="addNewMakeup-input7" name="Brand">
+        <span class="input-label">Brand</span>
+        <input type="text" placeholder="Brand">
+      </label>
+      <label class="item item-select" id="addNewMakeup-select3" name="type">
+        <span class="input-label">Type</span>
+        <select>
+          <option>Mascara</option>
+          <option>Concealer</option>
+          <option>Base</option>
+          <option>Eye Liner</option>
+          <option>Lip Liner</option>
+          <option>Lipstick</option>
+          <option>Lipgloss</option>
+        </select>
+      </label>
+      <label class="item item-input item-floating-label" id="addNewMakeup-input8" name="Name">
+        <span class="input-label">Name</span>
+        <input type="text" placeholder="Name">
+      </label>
+      <label class="item item-input item-floating-label" id="addNewMakeup-input9" name="Color">
+        <span class="input-label">Color</span>
+        <input type="text" placeholder="Color">
+      </label>
+      <label class="item item-input item-floating-label" id="addNewMakeup-input10" name="Item_number">
+        <span class="input-label">Item Number</span>
+        <input type="text" placeholder="Item Number">
+      </label>
+    </form>
+    <a ui-sref="tabsController.makeupList()" id="addNewMakeup-button12" class="button button-positive button-block">Add</a>
+    <a ui-sref="tabsController.cameraUpload()" id="addNewMakeup-button20" class="button button-positive button-block button-outline">Add with camera</a>
+    <a ui-sref="tabsController.makeupList()" id="addNewMakeup-button13" class="button button-positive button-block button-clear">Cancel</a>
+  </ion-content>
+</ion-view>
