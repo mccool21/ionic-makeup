@@ -1,2 +1,0 @@
-# ionic-makeup
-Makeup app
